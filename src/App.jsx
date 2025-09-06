@@ -12,7 +12,7 @@ export default function App() {
     <GoogleOAuthProvider clientId={GOOGLE_CLIENT_ID || ''}>
       <div className="container">
         <div className="nav">
-          <h1 className="header">Freshers Scraper</h1>
+          <h1 className="header">Web Scraper Assignment</h1>
           {user ? (
             <div className="row">
               <img src={user.picture} alt="avatar" style={{ width: 28, height: 28, borderRadius: 999 }} />
